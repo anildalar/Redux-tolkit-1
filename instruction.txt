@@ -1,5 +1,37 @@
-	Redux   
+	Redux   (Basic)
+			Code is not cosistant thoughout the developer 
 
+		let store = createStore(reducerFunction,initialState,middleware);
+ Positional Arguments
+community
+		
+		Package
+				1. npm install redux
+				2. npm install redux-thunk (middleware) (Async Op.)
+				3. npm install react-redux
 	Vs	
 
- Redux Toolkit
+ Redux Toolkit (RTK) (Advanced)
+		Code is consistant thoughout the developer community
+		
+
+	let store = configureStore({})
+Pacakeges
+
+		1. npm install @reduxjs/toolkit (redux+redux-thunk)
+		2. npm install react-redux
+
+Rules in RTK
+1. Create a folder app inside src
+
+JS OBject {}
+
+
+{
+	1. P:V
+	2. Method
+}
+
+		
+Type Cast
+'100'====> 100
